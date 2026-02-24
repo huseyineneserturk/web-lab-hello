@@ -5,8 +5,8 @@ Bu proje , Web Tasarimi ve Programlama dersi LAB -1 kapsaminda
 Vite + React + TypeScript kullanilarak olusturulmustur .
 
 ## Gelistirici
-- **Ad Soyad :** [Kendi Adin]
-- **Ogrenci No :** [ Numaran ]
+- **Ad Soyad :** Hüseyin Enes Ertürk
+- **Ogrenci No :** 235541019
 
 ## Kullanilan Teknolojiler
 - React 18
