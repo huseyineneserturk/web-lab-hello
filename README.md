@@ -23,5 +23,5 @@ npm install
 npm run dev
 ```
 Tarayicida http://localhost:5173 adresini ac.
-26
-27 ## Ekran Goruntusu
+## Ekran Goruntusu
+- "https://github.com/huseyineneserturk/web-lab-hello/blob/master/Lighthouse%20Score"
