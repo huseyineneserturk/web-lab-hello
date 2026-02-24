@@ -30,10 +30,10 @@ function App() {
                  alt="Hüseyin Enes Ertürk'ün vesikalık fotoğrafı." />
             <figcaption>Hüseyin Enes Ertürk</figcaption>
           </figure>
-          <p>Merhaba, ben Hüseyin Enes Ertürk. Yazılım geliştirme ve web teknolojileriyle ilgilenen bir öğrenciyim.</p>
+          <p>Merhaba, ben Hüseyin Enes Ertürk.</p>
           <ul>
-            <li>React</li>
-            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C#</li>
             <li>Python</li>
             <li>HTML &amp; CSS</li>
           </ul>
