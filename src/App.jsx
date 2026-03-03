@@ -25,40 +25,46 @@ function App() {
         
         <section id="hakkimda">
           <h2>Hakkimda</h2>
-          <figure>
-            <img src={profilePhoto}
-                 alt="Hüseyin Enes Ertürk'ün vesikalık fotoğrafı." />
-            <figcaption>Hüseyin Enes Ertürk</figcaption>
-          </figure>
-          <p>Merhaba, ben Hüseyin Enes Ertürk.</p>
-          <ul>
-            <li>Java</li>
-            <li>C#</li>
-            <li>Python</li>
-            <li>HTML &amp; CSS</li>
-          </ul>
+          <div className="about-content">
+            <figure>
+              <img src={profilePhoto}
+                   alt="Hüseyin Enes Ertürk'ün vesikalık fotoğrafı." />
+              <figcaption>Hüseyin Enes Ertürk</figcaption>
+            </figure>
+            <div>
+              <p>Merhaba, ben Hüseyin Enes Ertürk. Yazılım geliştirme ve web teknolojileriyle ilgilenen bir öğrenciyim.</p>
+              <ul className="skill-tags">
+                <li>Java</li>
+                <li>C#</li>
+                <li>Python</li>
+                <li>HTML &amp; CSS</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section id="projeler">
           <h2>Projelerim</h2>
-          <article>
-            <h3>Jobverse</h3>
-            <p>İş ilanlarından analizler oluşturan iş bulma platformu.</p>
-            <ul>
-              <li>Python</li>
-              <li>React</li>
-              <li>REST API</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Commsitumo</h3>
-            <p>YouTube yorum analizi web uygulaması.</p>
-            <ul>
-              <li>Python</li>
-              <li>NLP</li>
-              <li>JavaScript</li>
-            </ul>
-          </article>
+          <div className="project-grid">
+            <article className="project-card">
+              <h3>Jobverse</h3>
+              <p>İş ilanlarından analizler oluşturan iş bulma platformu.</p>
+              <ul className="skill-tags">
+                <li>Python</li>
+                <li>React</li>
+                <li>REST API</li>
+              </ul>
+            </article>
+            <article className="project-card">
+              <h3>Commsitumo</h3>
+              <p>YouTube yorum analizi web uygulaması.</p>
+              <ul className="skill-tags">
+                <li>Python</li>
+                <li>NLP</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section id="iletisim">
